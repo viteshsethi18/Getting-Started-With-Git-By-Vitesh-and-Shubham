@@ -1,0 +1,93 @@
+What is GIT?
+Git is an opensource software that is developed by Linus Torvalds in 2005 for the development of the Linux kernel. It is a distributed version control system that is capable of handling everything from small to very large projects with better performance and efficiency.
+Every git directory on every computer is a fully-fledged repository with complete version tracking abilities and history and it is not dependent on network access or central connectivity.
+
+Why GIT?
+Reasons why you should try git:
+1. Distributed Development - It creates a more reliable and secure environment for developers to work on their projects. Even if a user obliterates their own repository, they can simply clone someone else’s and start a new one. As Git is a distributed version control system, each user gets their own local repository and with a full complete history of commits made to the projects.
+2. Performance – Looking at the performance part, Git is very good when compared with other version control systems. Committing new changes, branching, merging and comparing past versions are all optimized for better performance and efficiency.
+3. Security – When you upload files to git you can be sure that no one should be able to look onto your file without your permission. For managing this git uses SHA algorithms to protect the code and change history against both accidental and malicious change and ensures that the history is fully traceable.
+
+What is Version Control System?
+A version control system is a kind of software which is used to monitor changes made to a particular file and allow you to handle the changes at different levels so that you can undo the changes whenever it’s needed.
+The version control system also allows users to move smoother and it enables developer teams to preserve working and efficiency as the team tends to include more co-developers.
+
+How does the version control system work?
+When the version control system is installed or initiated in the laptop or
+PC. This system creates a local directory at the same place where files are
+residing which it uses to manage the entire history that is changes made to
+files.
+
+How a beginner can get started with GIT
+
+Step 0: First of all install git and then create a GitHub account
+Can refer the below link for the same:
+https://git-scm.com/downloads
+
+Step 1: Create a local git repository
+To begin, open up a terminal and move to where you want to place
+the project on your local machine using the “cd “command and
+initialize a git repository in the root of the folder by running the “git
+init” command.
+
+Step 2: Then add a new file to your repository
+Go ahead and add a new file to your project by running the “touch”
+command on the git terminal.
+
+Step 3: Add the files of your project to the staging area
+Now add your file to the staging area by using the command “git add
+<filename>”.
+
+Step 4: Create a commit
+Now it’s time to create your first commit!
+Run the command on the git terminal “git commit -m <Your
+message about the commit>"
+
+Step 5: Create a new branch
+Let's say you are working on your master branch and want to create
+a new branch to develop your page. Here's what command you will
+run “git checkout -b <my branch name>.”
+
+Step 6: Create a new repository on Github
+To create a new repository on GitHub, first log in and then go to the
+GitHub home page and select the '+ New repository' button.
+
+Step 7: Push a branch to Github
+Now push your changes onto the new branch on GitHub. For this run
+the “git push origin <yourbranchname>”.
+GitHub will automatically create a branch for you on remote
+repository.
+
+Step 8: Create a Pull Request
+Now click on the green button ‘Pull Request’ on the same page
+which enables you to change and review your work.
+
+Step 9: Merge a PR
+Go ahead and click on the green button 'Merge pull request'.
+This will merge your edited file into the master branch.
+
+Step 10: Get Changes on Github back on your system
+Go ahead and use the ‘git log’ command to see all new commits.
+You may need to switch branches back to the master branch and
+you can do this thing by using the ‘git checkout master’ command.
+
+Step 11: Bask into your Git Glory
+
+Git vs GitHub
+Git is a distributed version control system that can manage a project’s
+source code you are working on. While GitHub is a cloud-based service
+that is built around the Git’s software working. Git is a tool a user install
+locally on their PC, while GitHub is an online platform that stores code
+pushed to it from computers running the Git software.
+The main difference between Git and GitHub is that Git is an open-source
+tool that user install locally on their computers to manage their project’s
+source code, while GitHub is an online platform to which users who use
+Git can connect and download or manage their documents.
+One way to observe the differences between Git and GitHub is to look at
+their competitors. Git competes with centralized and distributed version
+control tools such as Subversion and IBM's Rational Team Concert etc. On
+the other side, GitHub competes with cloud-based SaaS and PaaS services,
+such as GitLab and Atlassian's Bitbucket.
+
+References:
+Figure 1: https://www.treinaweb.com.br/blog/tag/truques-de-git/
